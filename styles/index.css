@@ -1,13 +1,23 @@
-html{
-  width : 100%;
+html {
+  width: 100%;
   height: 100%;
 }
 
-body{
+body {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 10% 1fr 10%;
+  background-image: URL(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
 }
 
+#demo {
+  font-size: 100pt;
+  color: white;
+  -webkit-text-stroke: 3px black;
+}
